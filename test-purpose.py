@@ -2,7 +2,7 @@ def main():
     import pandas as pd
     import abydos.phonetic as pho
 
-    file = pd.read_csv('test-purpose.csv')
+    file = pd.read_csv('final_data.csv')
     
     print("\nNumber of rows is :",len(file),end="\n\n")
     
@@ -28,11 +28,12 @@ def main():
             # print(i,j,t1,t2)
             if((t1==t2 and isSame[i]=="yes") or (t1!=t2 and isSame[i]=="no")):
                 count[j]+=1
-            # print(f'{t1}  {t2}')
+            if(j==0):
+                print(f'{t1}  {t2}')
         
 
     for i in range(len(count)):
-        print(f'Efficiency of {algoName[i]} is {count[i]/len(count)*100}%')
+        print(f'Efficiency of {algoName[i]} is {count[i]/len(file)*100}%')
 
 if __name__=="__main__":
     main()
