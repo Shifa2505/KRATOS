@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRATOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROBLEM STATEMENT</a></li>
+                    <li><a href="">SOLUTION APPROACH</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Grand Finale Of Smart India Hackathon!</h1>
+            <p>Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing
+                problems
+                <br>we face in our daily lives, and thus inculcate a culture of product innovation
+                <br>and a mindset of problem solving.
+            </p>
+            <a href="" class="hero-btn">Visit To Know More</a>
+        </div>
+
+    </section>
+    <!---PROBLEM STATEMENT--->
+    <section class="problem">
+        <h1>Problem Statement</h1>
+        <p> PS Number / Problem Stament ID: SH1009 </p>
+        <!-- <p>Probleem statement title: 
+            description: 
+            ORGANISTION: 
+            CATEGORY: Software
+            DOMAIN BUCKET: Smart Automation -->
+        <div class="row">
+            <div class="title-col">
+                <h3>Title</h3>
+                <p>Algorithm/Mechanism for analyzing and estimating % match level for similar data column/s values
+                    (e.g. Consolidation of multiple Govt. programs implies an individual be uniquely identified in all
+                    DBs.
+                    To uniquely identify, a location address is provided (e.g. a village name) and then other details
+                    such as
+                    name, DOB, Mother's, Father's name etc.</p>
+            </div>
+            <div class="desc-col">
+                <h3>Description</h3>
+                <p>The name itself might not be same in all and can have variations in other DBs such as
+                    (Name - Raam, Ram, Rama), (Father's Name - Shyam, Syam, Sham etc.). Algorithm is required such that
+                    inference
+                    can be drawn as to what percent the field value is matching between entries in other DBs. This will
+                    help
+                    estimating
+                    the overall variation % of field values in other DBs and the accuracy level if these programs are to
+                    be
+                    converged with
+                    each other. Initially it can be one field, then can be extended to combination of multiple fields
+                    etc. Due
+                    to large volume
+                    of data, initially a sample size can be determined and taken to calculate the match. <br>Sample data
+                    required:
+                    No</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!--- Details of problem statement--->
+    <section class="details">
+        <h1>Details of the Problem Statement</h1>
+        <p> PS Number / Problem Stament ID: SH1009 </p>
+        <div class="row">
+            <div class="detail-col">
+                <img src="images/software.png">
+                <h3>Category:- <br> Software</h3>
+            </div>
+            <div class="detail-col">
+                <img src="images/rural.jpg">
+                <h3>Organization:- <br> Ministry of Rural Development</h3>
+            </div>
+            <div class="detail-col">
+                <img src="images/automation.jpg">
+                <h3>Domain Bucket:- <br>Smart Automation</h3>
+            </div>
+
+        </div>
+
+    </section>
+    <!--------Solution Approach------->
+    <section class="solution">
+        <h1>Solution Approach</h1>
+        <p>Solving the problem by using multiple Algorithms and implementing those
+            algorithms by using <br>Machine Learning to get more accurate outcomes.</p>
+        <div class="row">
+            <div class="solution-col">
+                <img src="images/algorithm.jpg">
+                <div class="layer">
+                    <h3>ALGORITHMS</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/machine.jpg">
+                <div class="layer">
+                    <h3>MACHINE LEARNING</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/database.jpg">
+                <div class="layer">
+                    <h3>SAMPLE DATABASE</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--------Doubt solving section--------->
+    <section class="doubt">
+        <h1>To Clear Any Doubts...</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-------Footer---------->
+    <section class="footer">
+        <h2>About us</h2>
+        <div class="row">
+            <div class="member-col">
+                <h3>Team Members</h3>
+                <p>Rohan Pophale
+                    <br>Manav Daggula
+                    <br>Shifa Shaikh
+                    <br>Nupoor Shetye
+                    <br>Sameer Bhandarkar
+                    <br>Harish Yadav
+                </p>
+                <h3>Team Mentor</h3>
+                <p>Prof. Swapnil Gharat</p>
+            </div>
+            <div class="info-col">
+                <p>We are students of Rajiv Gandhi Institue of technology, versova, Mumbai. <br>
+                    All six of us are currently in our third year
+                    currently pursuing our <br>Bachelor of Engineering(B.E) Degree.
+                </p>
+            </div>
+
+        </div>
+        <p>Copyright &copy 2022 Team Kratos</p>
+
+
+
+    </section>
+    <!---JavaScript for Toggle Menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
