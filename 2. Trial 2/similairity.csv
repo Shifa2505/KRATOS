@@ -1,0 +1,35 @@
+,left_side,right_side,similairity
+6,"Grand Corner King Room, 1 King Bed",Grand Corner King Room,0.9330377564593393
+9,"High-Floor Premium Room, 1 King Bed",High-Floor Premium King Room,0.8718579158328756
+25,"Signature Room, 1 King Bed",Signature King,0.8298759212526295
+27,"Premium Room, 2 Queen Beds","Premium Room, 1 Queen Bed",0.8166515736275697
+36,"Suite, 1 Bedroom","Deluxe Suite, 1 Bedroom",0.8136442806347898
+40,"Club Room, City View (Club Lounge Access for 2 guests)","Club Room, Lake View (Club Lounge Access for 2 guests)",0.8755055903370249
+42,"Club Room, Lake View (Club Lounge Access for 2 guests)","Club Room, City View (Club Lounge Access for 2 guests)",0.8755055903370249
+50,"Room, 2 Double Beds, Non Smoking","Luxury Room, 2 Double Beds, Non Smoking",0.8433163671935024
+51,"Room, 2 Double Beds, Non Smoking","Signature Room, 2 Double Beds, Non Smoking",0.809753768920292
+57,"Luxury Room, 1 Queen Bed, Non Smoking","Luxury Room, 1 King Bed, Non Smoking",0.8644647909415439
+59,"Luxury Room, 1 King Bed, Non Smoking","Luxury Room, 1 Queen Bed, Non Smoking",0.8644647909415439
+61,"Luxury Room, 2 Double Beds, Non Smoking","Room, 2 Double Beds, Non Smoking",0.8433163671935024
+64,"Signature Room, 2 Double Beds, Non Smoking","Room, 2 Double Beds, Non Smoking",0.809753768920292
+74,"Business Double Room, 2 Double Beds",Business Double Room With Two Double Beds,0.8603247721441739
+92,"Suite, 1 Bedroom","Deluxe Suite, 1 Bedroom",0.8136442806347898
+94,"Deluxe Suite, 1 Bedroom","Suite, 1 Bedroom",0.8136442806347898
+95,"Deluxe Suite, 1 Bedroom","Suite, 1 Bedroom",0.8136442806347898
+105,"Premium Room, 1 Queen Bed","Premium Room, 2 Queen Beds",0.8166515736275697
+115,"Standard Room, Ocean View",Standard Room With Ocean View,0.8143818846307407
+121,"Room, Ocean View ","Room, Ocean View",0.9464526764338128
+133,"Standard Room, Partial Ocean View (Waikiki Tower) - No Resort Fee","Standard Room, Ocean View (Waikiki Tower) - No Resort Fee",0.9051598787909056
+135,"Standard Room, Ocean View (Waikiki Tower) - No Resort Fee","Standard Room, Partial Ocean View (Waikiki Tower) - No Resort Fee",0.9051598787909056
+138,"Room, Ocean View","Room, Ocean View ",0.9464526764338128
+151,"Junior Suite, 1 King Bed, Accessible (Roll-in Shower)",Junior Suite - Accessible Roll-in Shower,0.8071984840474744
+158,Grand Corner King Room,"Grand Corner King Room, 1 King Bed",0.9330377564593393
+161,High-Floor Premium King Room,"High-Floor Premium Room, 1 King Bed",0.8718579158328756
+167,King Room - Disability Access,Queen Room - Disability Access,0.9196316232089381
+168,King Room - Disability Access,Queen Room - Disability Access,0.9196316232089381
+175,Two Double Beds - Location Room (19th to 25th Floors),King Bed - Location Room (19th to 25th Floors),0.8756070948885641
+177,King Bed - Location Room (19th to 25th Floors),Two Double Beds - Location Room (19th to 25th Floors),0.8756070948885641
+182,Signature One King,Signature King,0.8291063489435218
+184,Premium Two Queen,Club Premium Two Queen,0.8405701889127534
+189,Club Premium Two Queen,Premium Two Queen,0.8405701889127534
+191,One Bedroom Suite,One - Bedroom Suite,0.8301198754147655
