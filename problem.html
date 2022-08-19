@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="header">
+    <section class="sub-header">
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
@@ -27,18 +27,10 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-            <h1>Grand Finale Of Smart India Hackathon!</h1>
-            <p>Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing
-                problems
-                <br>we face in our daily lives, and thus inculcate a culture of product innovation
-                <br>and a mindset of problem solving.
-            </p>
-            <a href="https://www.sih.gov.in/" class="hero-btn">Visit To Know More</a>
-        </div>
+        <h1>Our Problem Statement</h1>
 
     </section>
-    <!---PROBLEM STATEMENT--->
+    <!-- ---------PROBLEM STATEMENT------- -->
     <section class="problem">
         <h1>Problem Statement</h1>
         <p> PS Number / Problem Stament ID: SH1009 </p>
@@ -79,65 +71,36 @@
         </div>
 
     </section>
-    <!--- Details of problem statement--->
-    <section class="details">
-        <h1>Details of the Problem Statement</h1>
-        <p> PS Number / Problem Stament ID: SH1009 </p>
-        <div class="row">
-            <div class="detail-col">
-                <img src="images/software.png">
-                <h3>Category:- <br> Software</h3>
-            </div>
-            <div class="detail-col">
-                <img src="images/rural.jpg">
-                <h3>Organization:- <br> Ministry of Rural Development</h3>
-            </div>
-            <div class="detail-col">
-                <img src="images/automation.jpg">
-                <h3>Domain Bucket:- <br>Smart Automation</h3>
-            </div>
 
+  <!--- Details of problem statement--->
+  <section class="details">
+    <h1>Details of the Problem Statement</h1>
+    <p> PS Number / Problem Stament ID: SH1009 </p>
+    <div class="row">
+        <div class="detail-col">
+            <img src="images/software.png">
+            <h3>Category:- <br> Software</h3>
+        </div>
+        <div class="detail-col">
+            <img src="images/rural.jpg">
+            <h3>Organization:- <br> Ministry of Rural Development</h3>
+        </div>
+        <div class="detail-col">
+            <img src="images/automation.jpg">
+            <h3>Domain Bucket:- <br>Smart Automation</h3>
         </div>
 
-    </section>
-    <!--------Solution Approach------->
-    <section class="solution">
-        <h1>Solution Approach</h1>
-        <p>Solving the problem by using multiple Algorithms and implementing those
-            algorithms by using <br>Machine Learning to get more accurate outcomes.</p>
-        <div class="row">
-            <div class="solution-col">
-                <img src="images/algorithm.jpg">
-                <div class="layer">
-                    <h3>ALGORITHMS</h3>
-                </div>
-            </div>
-            <div class="solution-col">
-                <img src="images/machine.jpg">
-                <div class="layer">
-                    <h3>MACHINE LEARNING</h3>
-                </div>
-            </div>
-            <div class="solution-col">
-                <img src="images/database.jpg">
-                <div class="layer">
-                    <h3>SAMPLE DATABASE</h3>
-                </div>
-            </div>
-        </div>
+    </div>
 
-    </section>
-    <!--------Doubt solving section--------->
-    <section class="doubt">
-        <h1>To Clear Any Doubts...</h1>
-        <a href="contact.html" class="hero-btn">CONTACT US</a>
-    </section>
+</section>
+
+
     <!-------Footer---------->
     <section class="footer">
         <h2>About us</h2>
         <div class="row">
             <div class="member-col">
-              
+
                 <h3>Team Members</h3>
                 <p>Rohan Pophale
                     <br>Manav Daggula
@@ -147,7 +110,7 @@
                     <br>Harish Yadav
                 </p>
                 <h3>Team Mentor</h3>
-                <p>Prof. Swapnil Gharat</p> 
+                <p>Prof. Swapnil Gharat</p>
             </div>
             <div class="info-col">
                 <p>We are students of Rajiv Gandhi Institue of technology, versova, Mumbai. <br>
@@ -162,7 +125,17 @@
 
 
     </section>
-   
+    <!---JavaScript for Toggle Menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 
 </html>
