@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRATOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        table * {
+            color: black;
+            border: 1px;
+            width: 1%;
+            font-size: 25px;
+            border-collapse: collapse;
+
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            height: 40px;
+            text-align: center;
+            vertical-align: bottom;
+            /* color: crimson; */
+        }
+        th {
+            height: 40px;
+            font-weight: 600;
+            border: 1px solid;
+        }
+
+        tr:nth-child(even) {
+            background-color: #b7e9f7;
+        }
+
+        h1 {
+            font-size: 55px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="outputcsv">
+        <h1>Output Table</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    {% for x in output_df.columns%}
+                    <th>
+                        {{x}}
+                    </th>
+                    {% endfor %}
+                </tr>
+
+                {% for i in range(l)%}
+                <tr>
+                    {% for x in output_df.columns%}
+                    <td>
+                        {{output_df[x][i]}}
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
